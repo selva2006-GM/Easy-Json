@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-qr-code": "^2.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^8.0.1",

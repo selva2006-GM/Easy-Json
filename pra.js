@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const fs = require('fs');
 
 const obj = {"a":{"a" : "A"}, "b":"B"};
@@ -26,3 +27,12 @@ function printer(obj){
 // })
 
 printer(obj);
+=======
+var sayHi;
+
+sayHi = function () {
+    console.log("Hi");
+    
+};
+sayHi(); // undefined()
+>>>>>>> aa1e377 (optimized the showdata)
