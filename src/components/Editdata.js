@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Editdata({ jsonData, setJsonData }) {
+    const [text, setText] = useState("");
 
-    const [text, setText] = useState(
-        JSON.stringify(jsonData, null, 4)
-    );
+    useEffect(() => {
+        setText(JSON.stringify(jsonData, null, 4));
+    }, [jsonData]);
 
     function save() {
         try {
@@ -29,9 +30,7 @@ export default function Editdata({ jsonData, setJsonData }) {
                 }}
             />
 
-            <button onClick={save}>
-                Save
-            </button>
+            <button onClick={save}>Save</button>
         </>
     );
 }
