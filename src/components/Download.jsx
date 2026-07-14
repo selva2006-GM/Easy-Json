@@ -71,13 +71,13 @@ export default function Download(props){
             </p>
 
             <img
-                src="../../public/upi.png"
+                src="../../dist/assets/upi.png"
                 alt="UPI"
                 width="120"
                 style={{ marginBottom: "15px" }}
             />
 
-            <p>
+            {/* <p>
                 <b>UPI ID:</b> selvaganesh.s9629@oksbi
             </p>
 
@@ -89,7 +89,7 @@ export default function Download(props){
                 }
             >
                 Copy UPI ID
-            </button>
+            </button> */}
 
             <button onClick={startDownload}>
                 Continue Download
