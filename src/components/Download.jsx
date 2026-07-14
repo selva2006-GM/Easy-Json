@@ -61,12 +61,7 @@ export default function Download(props){
         <div className="overlay">
         <div className="popup">
 
-            <img
-                src="../../public/upi.png"
-                alt="UPI"
-                width="120"
-                style={{ marginBottom: "15px" }}
-            />
+            
 
             <h2>❤️ Support Easy JSON</h2>
 
@@ -75,9 +70,11 @@ export default function Download(props){
                 development.
             </p>
 
-            <QRCode
-                value="upi://pay?pa=selvaganesh.s9629@oksbi&pn=S%20Selva%20Ganesh&cu=INR"
-                size={180}
+            <img
+                src="../../public/upi.png"
+                alt="UPI"
+                width="120"
+                style={{ marginBottom: "15px" }}
             />
 
             <p>
